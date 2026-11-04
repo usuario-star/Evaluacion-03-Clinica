@@ -1,0 +1,25 @@
+.pagina-medicos {
+  padding: 1rem 0;
+}
+
+.medicos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.loading-spinner {
+  text-align: center;
+  padding: 3rem;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.no-data {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 12px;
+  color: #64748b;
+  border: 1px dashed #cbd5e1;
+}

@@ -1,0 +1,92 @@
+.item-cita-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.item-cita-card:hover {
+  border-color: #93c5fd;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.item-cita-card.seleccionada {
+  border-color: #2563eb;
+  background-color: #eff6ff;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.item-cita-hora {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 1.2rem;
+  border-right: 1px solid #e2e8f0;
+  min-width: 80px;
+}
+
+.hora-texto {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+.fecha-texto {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.item-cita-info {
+  flex: 1;
+  padding-left: 1.2rem;
+}
+
+.item-paciente {
+  margin: 0 0 0.2rem 0;
+  color: #0f172a;
+  font-size: 1rem;
+}
+
+.item-medico {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.85rem;
+  color: #475569;
+}
+
+.estado-pill {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.badge-pendiente {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-confirmada {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.badge-atendida {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge-cancelada {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.item-cita-accion {
+  margin-left: 1rem;
+}

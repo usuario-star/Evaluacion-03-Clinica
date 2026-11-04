@@ -1,0 +1,16 @@
+.pagina-pacientes {
+  padding: 1rem 0;
+}
+
+.pacientes-layout {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+@media (max-width: 992px) {
+  .pacientes-layout {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,36 @@
+.resumen-citas-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.resumen-card {
+  padding: 1rem;
+  border-radius: 12px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.resumen-numero {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.resumen-texto {
+  font-size: 0.8rem;
+  color: #64748b;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.resumen-card.total .resumen-numero { color: #0284c7; }
+.resumen-card.pendiente .resumen-numero { color: #d97706; }
+.resumen-card.confirmada .resumen-numero { color: #4338ca; }
+.resumen-card.atendida .resumen-numero { color: #16a34a; }
+.resumen-card.cancelada .resumen-numero { color: #dc2626; }

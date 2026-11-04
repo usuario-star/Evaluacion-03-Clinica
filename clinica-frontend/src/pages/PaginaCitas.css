@@ -1,0 +1,55 @@
+.pagina-citas {
+  padding: 1rem 0;
+}
+
+.citas-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.fecha-filtro-box {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: white;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+}
+
+.fecha-filtro-box label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+.fecha-filtro-box input {
+  border: 1px solid #cbd5e1;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  outline: none;
+}
+
+.citas-split-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.subseccion-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #1e3a8a;
+  font-size: 1.15rem;
+}
+
+@media (max-width: 900px) {
+  .citas-split-panel {
+    grid-template-columns: 1fr;
+  }
+}
